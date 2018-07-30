@@ -1,0 +1,20 @@
+env:
+  dev
+spring:
+  application:
+    name: product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: Abcd1234_
+    url: jdbc:mysql://localhost:3306/product?characterEncoding=utf-8
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: 47.95.241.171
+    port: 5672
+    username: springcloud
+    password: 123456
+PRODUCT:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RetryRule
