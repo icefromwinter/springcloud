@@ -2,6 +2,9 @@ env: dev8
 spring:
   application:
     name: order
+  redis:
+    url: 47.95.241.171
+    port: 6379
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
