@@ -6,7 +6,8 @@ spring:
   cloud: 
      stream:
       bindings:
-        theInputStream: theInputStream
+        theInputStream: 
+          group: theInputStream
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
