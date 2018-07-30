@@ -1,5 +1,3 @@
-server:
-  port: 8088
 env: dev8
 spring:
   application:
