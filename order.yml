@@ -3,6 +3,10 @@ env:
 spring:
   application:
     name: order
+  cloud: 
+     stream:
+      bindings:
+        theInputStream: theInputStream
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
