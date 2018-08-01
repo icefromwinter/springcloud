@@ -15,3 +15,6 @@ spring:
     port: 5672
     username: springcloud
     password: 123456
+  redis:
+    host: 47.95.241.171
+    port: 6379
