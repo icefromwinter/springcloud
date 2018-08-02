@@ -1,2 +1,6 @@
 zuul:
   sensitive-headers: 
+spring:
+  redis:
+    host: 47.95.241.171
+    port: 6379
