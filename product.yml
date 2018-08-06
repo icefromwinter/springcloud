@@ -15,6 +15,11 @@ spring:
     port: 5672
     username: springcloud
     password: 123456
+  zipkin:
+    base-url: http://47.95.241.171:9411
+  sleuth:
+    sampler:
+      percentage: 1
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RetryRule
